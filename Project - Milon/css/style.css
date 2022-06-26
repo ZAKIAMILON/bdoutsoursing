@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #e0c3ce;
+    /* display: flex;
+    justify-content: space-between; */
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 0px 100px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 740px) {
+    header {
+        padding: 0px 20px;
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    }
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    }
+nav ul li{
+    margin-left: 16px;
+    color: #961a90;
+}
+nav ul li a {
+    color: black;
+}
+.toggle {
+    cursor: pointer;
+    display: none;
+}
+.toggle i {
+    font-size: 40px;
+}
+.logo img {
+    width: 80px;
+}
+@media screen and (max-width: 740px) {
+    .logo img {
+        width: 100px;
+    }
+    nav ul {
+        position: fixed;
+        top: 120px;
+        right: -50%;
+        width: 50%;
+        background-color: white;
+        height: 86vh;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    nav ul .slash {
+        display: none;
+    }
+    nav ul li {
+        margin: 10px 20px;
+    }
+    .toggle {
+        display: block;
+    }
+}
+/* banner :start */
+.banner-1{
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #c6bcca;
+}   
+.banner-1 img {
+        width: 70%; 
+        height: 320px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .banner-1 img {
+                padding: 20px;
+                height: auto;
+            }
+        }
+
+.banner{
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #c6bcca;
+}
+.banner h2{
+    font-size: 30px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #e029d7;
+}
+.banner p{
+    text-align: center;
+    max-width: 760px;
+    margin-bottom: 45px;
+    color: rgb(52, 100, 100);
+    font-size: 17px;
+}
+.black-btn{
+    background-color: #34a3d6;
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    padding: 8px 35px;
+    border: none;
+}
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 20px;
+        height: auto;
+    }
+}
+.project {
+    padding: 50px 0px;
+}
+.heading {
+    font-size: 30px;
+    text-align: center;
+    color: #a812a1;
+}
+.project-box {
+    margin-top: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 20px;
+}
+.project-box img {
+    width: 100%; 
+    height: 220px; 
+}
+.project-box h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 14px;
+    color: rgb(255, 153, 0);
+}
+.project-box p {
+    font-size: 15px;
+    color: #1a17e6;
+    margin-bottom: 15px;
+}
+
+.iframe {
+    margin: 30px 50px;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .iframe {
+        width: auto;
+        height: auto;
+    }
+}
+.box {
+    width: 100%;
+    border: 3px solid rgb(245, 224, 224);
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e4d2d9;
+}
+.mini-box {
+    height: 250px;
+    width: 50%;
+    background-color: #ecdee3;
+    margin: 20px;
+    padding: 10px 10px;
+ }
+ .mini-box p {
+    color: #2385f5;
+ }
+ .mini-box p a {
+    color: #2385f5;
+ }
+.mini-box iframe {
+    height: 100%;
+    width: 100%;
+}
+/* .card {
+    border: 1px solid #1a17e6;
+    padding: 0%;
+    margin: 30px;
+    display: flex;
+    
+    }
+.mini-card {
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 80%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+    .mini-card a {
+        color: #570357;
+    } */
+
+    /* Footer */
+.footer {
+    padding: 10px;
+    /* text-align: center; */
+    background: rgb(238, 245, 229);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  
+  .footer p {
+    text-align: right;
+  }
+  .footer a {
+    float: right;
+    padding: 10px 10px;
+  }
+  .footer img {
+    width: 30px;
+    
+   }
+/* @media screen and (max-width: 740px) {
+    .logo img {
+        width: 120px;
+    } */
+
+
